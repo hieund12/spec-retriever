@@ -9,6 +9,11 @@ Tự Động Hóa Việc Viết Testcase Từ Tài Liệu Đặt Tả Phần M�
 
 - Thu thập tài liệu đặt tả: Sử dụng các tài liệu kỹ thuật, sơ đồ và mô tả tính năng từ các bộ phận kỹ thuật để tạo ra một kho dữ liệu.
 - Tiền xử lý: Chuẩn hóa tài liệu để dễ dàng xử lý bằng cách loại bỏ thông tin thừa và định dạng lại văn bản.
+- Ví dụ về tài liêu
+  - https://www.istqb.org/certifications/certified-tester-foundation-level/
+  - https://qawerk.com/blog/website-testing-checklist/
+  - https://owasp.org/www-project-top-ten/
+  - ...
 
 #### Phương pháp baseline dựa trên BM25
 - Tích hợp BM25: Phát triển một công cụ tìm kiếm để xác định và trích xuất các phần tài liệu liên quan dựa trên câu hỏi hoặc từ khóa.
