@@ -17,8 +17,11 @@ Tự Động Hóa Việc Viết Testcase Từ Tài Liệu Đặt Tả Phần M�
 
 #### Phương pháp baseline dựa trên BM25
 - Tích hợp BM25: Phát triển một công cụ tìm kiếm để xác định và trích xuất các phần tài liệu liên quan dựa trên câu hỏi hoặc từ khóa.
+  -   https://en.wikipedia.org/wiki/Okapi_BM25
 - Xác định ngữ cảnh: Sử dụng các thuật toán để hiểu rõ hơn về ngữ cảnh và ý nghĩa của từng đoạn trong tài liệu.
   - Sử dụng **BERT** và **ChatGPT-4**: Những mô hình này sẽ được sử dụng để phân tích ngữ cảnh và sinh ra các testcase có tính ứng dụng cao dựa trên các thông tin đã được trích xuất.
+    - https://huggingface.co/docs/transformers/en/model_doc/bert
+    - https://platform.openai.com/docs/guides/embeddings
 
 #### Phương pháp nâng cao sử dụng LLMs
 - Word2Vec là một mô hình nhúng từ (word embedding) được phát triển bởi nhóm nghiên cứu của Google. Mô hình này được thiết kế để chuyển đổi các từ thành vector đặc trưng số, sao cho các từ có ngữ nghĩa tương tự nhau sẽ có véc-tơ đặc trưng gần nhau trong không gian vector. Mục đích chính là để máy tính có thể hiểu và xử lý ngôn ngữ tự nhiên một cách hiệu quả hơn, điều này rất có giá trị trong quá trình xử lý và phân tích văn bản lớn.
